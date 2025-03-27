@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="tyle.css">
+    <style>
+        body {
+            margin: 0;
+            background: rgb(255, 255, 255);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            width: 250px;
+            height: 100%;
+            background: #333333;
+            color: white;
+            padding: 3rem;
+
+        }
+
+        .hero{
+            justify-content: center;
+            width: 1600px;
+            height: 100%;
+            background: #F4F4F4;
+            color: rgb(0, 0, 0);
+            padding: 2rem;
+        }
+
+        .box {
+            display: flex;
+            align-items: flex-start;
+            height: 880PX;
+        }
+
+        .box>*:first-child {
+            align-self: stretch;
+        }
+
+        .box .selected {
+            align-self: center;
+        }
+
+        li{
+            font-size: 16px;
+            color: white;
+            list-style: none;
+            padding: 10px;
+        
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+        .box div {
+            width: 100px;
+            height: 100px;
+            white-space: nowrap;
+        }
+        h1{
+            font-size: 40px;
+        }
+
+        button {
+            background-color: #585757;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="box">
+        <nav class="nav">
+            <ol>
+                <li>Gestion de Personas</li>
+                <li>Gestion de Productos</li>
+                <li>Gestion de Facturas</li>
+                <li><button type="submit"><a href="login.html">Cerrar Sesion</a></button></li>
+            </ol>
+        </nav>
+        <section class="hero">
+            <div>
+                <h1>Bienvenido</h1>
+                <a>seleccion una opcion para comenzar</a>
+            </div>
+        </section>
+
+    </header>
+</body>
+
+</html>
