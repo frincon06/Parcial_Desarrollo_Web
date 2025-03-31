@@ -7,5 +7,5 @@ Este proyecto es una aplicación web estática construida solo con **HTML y CSS*
 ✅ **HTML5** - Para la estructura de las páginas  
 ✅ **CSS3** - Para los estilos y diseño visual  
 # 🌐 Desarrolladores:
-👨‍💻 **Nombre del estudiante** - código   
-👨‍💻 **Nombre del estudiante** - código  
+👨‍💻 **Andres Felipe Rincon Narnajo** - 192383 
+
